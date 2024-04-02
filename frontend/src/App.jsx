@@ -4,6 +4,8 @@ import "react-toastify/dist/ReactToastify.css";
 import GlobalStyle from "./styles/global";
 import styled from "styled-components";
 
+import Form from "./components/form";
+
 const Container = styled.div`
   width: 100%;
   max-width: 800px;
@@ -23,6 +25,8 @@ function App() {
     <div>
       <Container>
         <Title> Usuários </Title>
+
+        <Form />
 
       </Container>
       <ToastContainer autoClose={3000} position="bottom-left" />
